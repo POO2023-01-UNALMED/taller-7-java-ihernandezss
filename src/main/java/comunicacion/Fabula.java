@@ -31,7 +31,7 @@ private String interpretacion;
 		return interpretacion;
 	}
 	public String toString () {
-		return getOrigen()+"\n"+getTitulo()+"\n"+getAutor()+"\n"+getPaginas()+"\n"+ensenanza+"\n"+interpretacion+"\n";
+		return getOrigen()+"\n"+getTitulo()+"\n"+getAutor()+"\n"+getPaginas()+"\n"+ensenanza+"\n";
 	}
 
 }
