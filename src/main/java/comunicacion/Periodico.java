@@ -40,7 +40,7 @@ public class Periodico extends Escrito {
 		return interpretacion;
 	}
 	public String toString() {
-		return getOrigen()+"\n"+getTitulo()+"\n"+getAutor()+"\n"+getPaginas()+fecha+"\n"+primicia+"\n"+interpretacion+"\n";
+		return getOrigen()+"\n"+getTitulo()+"\n"+getAutor()+"\n"+getPaginas()+fecha+"\n"+primicia;
 	}
 
 }
